@@ -92,9 +92,8 @@
 /* End About Area */
 
 
-.site-main .project-area{
-  padding: 8rem 5rem;
-}
+
+
 .site-main .project-area h4{
   color:var(--text-color);
   font:normal 500 20px/25px var(--roboto);
