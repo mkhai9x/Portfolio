@@ -92,7 +92,10 @@
 /* End About Area */
 
 
-
+.site-main .project-area{
+  padding:1rem 20rem;
+  margin-bottom: 4rem;
+}
 
 .site-main .project-area h4{
   color:var(--text-color);
