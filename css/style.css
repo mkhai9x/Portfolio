@@ -226,13 +226,13 @@
   width: 200px;
   height: 300px;
   transition: 0.5s;
-
 }
 
 .site-main .projects-area .container.projects-list .card .face.face1 {
   position: relative;
   /* background: var(--gradient-color); */
   background: #333;
+
   background-clip: padding-box;
   color: whitesmoke;
   transition: background .6s ease;
@@ -240,7 +240,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 3;
   transform: translateY(150px);
 }
 
