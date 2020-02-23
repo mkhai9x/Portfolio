@@ -211,17 +211,17 @@
   justify-content: space-between;
 }
 
-.site-main .porjects-area .container.projects-list .card {
+.site-main .porjects-area .container.projects-list .cards {
   position: relative;
 }
 
-.site-main .projects-area .container.projects-list .card .face {
+.site-main .projects-area .container.projects-list .cards .face {
   width: 200px;
   height: 300px;
   transition: 0.5s;
 }
 
-.site-main .projects-area .container.projects-list .card .face.face1 {
+.site-main .projects-area .container.projects-list .cards .face.face1 {
   position: relative;
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   /* background: #333; */
@@ -237,26 +237,26 @@
   transform: translateY(150px);
 }
 
-.site-main .projects-area .container.projects-list .card:hover .face.face1 {
+.site-main .projects-area .container.projects-list .cards:hover .face.face1 {
   background: #4458dc;
   transform: translateY(0);
 }
 
-.site-main .projects-area .container.projects-list .card .face.face1 .content {
+.site-main .projects-area .container.projects-list .cards .face.face1 .content {
   text-align: center;
   opacity: 0.8;
   transition: 0.5s;
 }
 
-.site-main .projects-area .container.projects-list .card:hover .face.face1 .content {
+.site-main .projects-area .container.projects-list .cards:hover .face.face1 .content {
   opacity: 1;
 }
 
-.site-main .projects-area .container.projects-list .card .face.face1 .content img {
+.site-main .projects-area .container.projects-list .cards .face.face1 .content img {
   max-width: 100px;
 }
 
-.site-main .projects-area .container.projects-list .card .face.face1 .content h5 {
+.site-main .projects-area .container.projects-list .cards .face.face1 .content h5 {
   margin: 10px 0 0;
   padding: 0;
   color: #fff;
@@ -264,7 +264,7 @@
   font-size: 1.5em;
 }
 
-.site-main .projects-area .container.projects-list .card .face.face2 {
+.site-main .projects-area .container.projects-list .cards .face.face2 {
   position: relative;
   background: #fff;
   display: flex;
@@ -276,16 +276,16 @@
   transform: translateY(-150px);
 }
 
-.site-main .projects-area .container.projects-list .card:hover .face.face2 {
+.site-main .projects-area .container.projects-list .cards:hover .face.face2 {
   transform: translateY(0);
 }
 
-.site-main .projects-area .container.projects-list .card .face.face2 .content p {
+.site-main .projects-area .container.projects-list .cards .face.face2 .content p {
   margin: 0;
   padding: 0;
 }
 
-.site-main .projects-area .container.projects-list .card .face.face2 .content a {
+.site-main .projects-area .container.projects-list .cards .face.face2 .content a {
   margin: 15px 0 0;
   display: inline-block;
   text-decoration: none;
@@ -296,7 +296,7 @@
   border-radius: 10px;
 }
 
-.site-main .projects-area .container.projects-list .card .face.face2 .content a:hover {
+.site-main .projects-area .container.projects-list .cards .face.face2 .content a:hover {
   background: var(--gradient-color);
   border-radius: 10px;
 }
