@@ -30,14 +30,14 @@
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text
+  background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text
+  background-clip: text;
 }
 
 /* End navigation */
@@ -75,9 +75,7 @@
   width: 90rem;
 }
 
-
 /* End Banner Area */
-
 
 /* Start About Area */
 .site-main .about-area {
@@ -92,11 +90,10 @@
 }
 
 .site-main .about-area .about-title .paragraph>p {
-  padding: .4rem 0;
+  padding: 0.4rem 0;
 }
 
 /* End About Area */
-
 
 /* Start Brand Area */
 .site-main .brand-area h5 {
@@ -117,11 +114,11 @@
   border: 1px solid var(--border-color);
   text-align: center;
   padding: 1.8rem 0rem;
-  margin: .9rem 0rem;
+  margin: 0.9rem 0rem;
   width: 180px;
   height: 14 0px;
   cursor: pointer;
-  transition: transform .4s ease;
+  transition: transform 0.4s ease;
 }
 
 .site-main .brand-area .first-row .col-lg-4>.single-brand>img {
@@ -134,8 +131,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4>.single-brand:hover>img {
-  filter: brightness(.9);
-
+  filter: brightness(0.9);
 }
 
 .site-main .brand-area .experience-area {
@@ -182,8 +178,6 @@
 
 /* End Brand Area */
 
-
-
 /* Start Project Area */
 
 .site-main .projects-area {
@@ -197,7 +191,6 @@
 .site-main .projects-area .projects-title h1 {
   font-size: 35px;
 }
-
 
 .site-main .projects-area .body-of-cards {
   margin: 100px;
@@ -230,12 +223,12 @@
 
 .site-main .projects-area .container.projects-list .card .face.face1 {
   position: relative;
-  /* background: var(--gradient-color); */
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   background: #333;
 
   background-clip: padding-box;
   color: whitesmoke;
-  transition: background .6s ease;
+  transition: background 0.6s ease;
   box-shadow: var(--box-shadow);
   display: flex;
   justify-content: center;
@@ -244,9 +237,8 @@
   transform: translateY(150px);
 }
 
-
 .site-main .projects-area .container.projects-list .card:hover .face.face1 {
-  background: var(--primary-color);
+  background: #854fee;
   transform: translateY(0);
 }
 
@@ -284,7 +276,6 @@
   transform: translateY(-150px);
 }
 
-
 .site-main .projects-area .container.projects-list .card:hover .face.face2 {
   transform: translateY(0);
 }
@@ -312,7 +303,6 @@
 
 /* End Project Area */
 
-
 /* Start About Me */
 .site-main .about-area .about-title h1 {
   font-size: 35px;
@@ -338,7 +328,6 @@
 
 .site-main .about-area .client .about-client h4 {
   font: normal 500 21px/20px var(--roboto);
-
 }
 
 .site-main .about-area .client .about-client p {
@@ -359,7 +348,6 @@
 
 /* End About Me */
 
-
 /* Start footer area */
 footer.footer-area {
   padding: 5rem 0;
@@ -374,7 +362,6 @@ footer.footer-area .social a>i {
   font-size: 22px;
   padding: 2rem;
   color: #69359c;
-
 }
 
 #button-for-email {
