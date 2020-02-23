@@ -163,9 +163,9 @@
 }
 
 .site-main .brand-area .experience-area .years-area .years {
-  font: normal bold 84px/40px var(--roboto);
-  color: var(--primary-color2);
-  z-index: 2;
+  font: normal bold 84px/40px "Roboto", cursive;
+  color: #854fee;
+  z-index: 1;
 }
 
 .site-main .brand-area .experience-area .years-area h2>span {
