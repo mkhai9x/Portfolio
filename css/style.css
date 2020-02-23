@@ -224,7 +224,7 @@
 .site-main .projects-area .container.projects-list .card .face.face1 {
   position: relative;
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
-  background: #333;
+  /* background: #333; */
 
   background-clip: padding-box;
   color: whitesmoke;
@@ -238,7 +238,7 @@
 }
 
 .site-main .projects-area .container.projects-list .card:hover .face.face1 {
-  background: #854fee;
+  background: #4458dc;
   transform: translateY(0);
 }
 
@@ -306,6 +306,7 @@
 /* Start About Me */
 .site-main .about-area .about-title h1 {
   font-size: 35px;
+  margin: 50px;
 }
 
 .site-main .about-area .about-title p {
