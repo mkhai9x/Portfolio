@@ -297,7 +297,7 @@
 }
 
 .site-main .projects-area .container.projects-list .cards .face.face2 .content a:hover {
-  background: var(--gradient-color);
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   border-radius: 10px;
 }
 
